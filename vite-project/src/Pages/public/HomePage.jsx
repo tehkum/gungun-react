@@ -1,3 +1,4 @@
+import CategoryBox from "../../Components/CategoryBox";
 import Productcard from "../../Components/productCard";
 import "./Homepage.css";
 
@@ -7,10 +8,10 @@ export default function HomePage(){
             
         </div>
         <div className="home-sec-two">
-            
+            <CategoryBox />
         </div>
         <div className="home-sec-three">
-        <Productcard />
+            <Productcard />
         </div>
     </>
 }
