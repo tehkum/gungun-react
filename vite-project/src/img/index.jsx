@@ -1,3 +1,4 @@
 import icon from "./icon.jpeg";
+import signin from "./signin.svg";
 
-export { icon };
+export { icon, signin };
